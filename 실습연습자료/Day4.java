@@ -78,40 +78,40 @@ class SimpleAdder{
 	}
 }
 
-class Person
-{
-	private int perID;
-	private int milID;
-	private int birthYear;
-	private int birthMonth;
-	private int birthDay;
-	
-	public Person(int perID, int milID, int bYear, int bMonth, int bDay) { 
-		//생성자의 재호출을 위한 키워드 this
-		this.perID=perID;
-		this.milID=milID;
-		birthYear=bYear;
-		birthMonth=bMonth;
-		birthDay=bDay;
-	}
-	public Person(int pID, int bYear,int bMonth, int bDay) {
-		this(pID,0,bYear,bMonth,bDay);
-	}
-	
-	public Person(int pID, int mID) { //군 필자를 위한 생성자
-		perID=pID;
-		milID=mID;
-	}
-	public Person(int pID) { //군 미필자를 위한 생성자
-		perID=pID;
-		milID=0;
-		
-	}
-	public void showInfo() {
-		System.out.println("민번 : "+ perID);
-		if(milID!=0)
-			System.out.println("군번 : "+milID+'\n');
-		else
-			System.out.println("군과 관계없음 \n");
-	}
-}
+//class Person
+//{
+//	private int perID;
+//	private int milID;
+//	private int birthYear;
+//	private int birthMonth;
+//	private int birthDay;
+//	
+//	public Person(int perID, int milID, int bYear, int bMonth, int bDay) { 
+//		//생성자의 재호출을 위한 키워드 this
+//		this.perID=perID;
+//		this.milID=milID;
+//		birthYear=bYear;
+//		birthMonth=bMonth;
+//		birthDay=bDay;
+//	}
+//	public Person(int pID, int bYear,int bMonth, int bDay) {
+//		this(pID,0,bYear,bMonth,bDay);
+//	}
+//	
+//	public Person(int pID, int mID) { //군 필자를 위한 생성자
+//		perID=pID;
+//		milID=mID;
+//	}
+//	public Person(int pID) { //군 미필자를 위한 생성자
+//		perID=pID;
+//		milID=0;
+//		
+//	}
+//	public void showInfo() {
+//		System.out.println("민번 : "+ perID);
+//		if(milID!=0)
+//			System.out.println("군번 : "+milID+'\n');
+//		else
+//			System.out.println("군과 관계없음 \n");
+//	}
+//}
