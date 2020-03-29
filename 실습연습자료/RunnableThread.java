@@ -26,26 +26,26 @@ public class RunnableThread {
 	}
 
 }
-class Sum
-{
-	int num;
-	public Sum() { num=0; }
-	public void addNum(int n) { num+=n; }
-	public int getNum() { return num; }
-}
-
-class AdderThread extends Sum implements Runnable
-{	
-	int start, end;
-	
-	public AdderThread(int s, int e)
-	{
-		start=s;
-		end=e;
-	}
-	public void run()
-	{
-		for(int i=start; i<=end; i++)
-			addNum(i);
-	}
-}
+//class Sum
+//{
+//	int num;
+//	public Sum() { num=0; }
+//	public void addNum(int n) { num+=n; }
+//	public int getNum() { return num; }
+//}
+//
+//class AdderThread extends Sum implements Runnable
+//{	
+//	int start, end;
+//	
+//	public AdderThread(int s, int e)
+//	{
+//		start=s;
+//		end=e;
+//	}
+//	public void run()
+//	{
+//		for(int i=start; i<=end; i++)
+//			addNum(i);
+//	}
+//}
