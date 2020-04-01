@@ -1,0 +1,26 @@
+4/2(목)
+
+
+*24-1 File I/O에 대한 소개
+입출력(I/O) 스트림.-> byte스트림, 문자스트림 둘의 기준을 알아야한다.
+데이터의 입출력 
+->file, console, device 같은 경우가 있다.
+스트림이란 데이터 흐름이 단방향을 의미한다.
+두개의 인터페이스가 정의되어있다. 입력용, 출력용.
+InputStream in = new FileInputStream("run.exe"); 
+->파일 run.exe 대상의 입력 스트림 생성.
+int read() 가 왜 int형인 이유는->byte형으로 반환하면 0~255인데 오류가 나면 -1도 표현해야 하기 때문이다.
+입출력스트림은 대부분 쌍을 이룬다(InputStream과 OutputStream 이 대표적 예)(read와 write)(FileInputStream과 FileOutputStream)
+byte buf[]=new byte[1024]; 읽어들이는 크기를 1K로 만들어서 속도를 늘린다.(보통은 1byte씩 복사해서 엄청 느리다.)
+
+
+
+
+
+
+
+
+
+
+
+
