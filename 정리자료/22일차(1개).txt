@@ -1,0 +1,42 @@
+4/21(화)
+
+*25-5 다양한 Swing 컴포넌트
+JLabel 은 문자열 출력을 위한 컴포넌트이다.
+JTextField 는 문자열 출력을 위한 컴포넌트이다.
+JPasswordField 는 문자열을 가리며 출력
+JTextArea 는 여러 줄의 문자열 입력을 위한 컴포넌트이다.
+//extArea.setCaretPosition(textArea.getText().length()); --이렇게 하면 마우스 커서를 텍스트끝에다가 위치할 수 있다.
+JScrollPane 은 스크롤 바가 필요한 시점에 생성됨 , 텍스트 상자와 합쳤다고 생각해도된다.
+JCheckBox 은 체크상자를 만들어서 체크하는것. (ex) 약관 동의 박스
+JRadioButton 은 여러 가지 선택지 중 하나를 선택하는 것.
+Border 는 미적인 요소이다. (경계를 만들어서 꾸미는 요소이다.)
+JComboBox 는 선택사항이 버튼을 누르면 생성되는 것이다. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
